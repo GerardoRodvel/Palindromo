@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtCaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="PALABRA"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="28dp"
+        android:text="VERIFICAR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCaja" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
+        android:text="PALINDROMO"
+        app:layout_constraintEnd_toStartOf="@+id/txtResult1"
+        app:layout_constraintTop_toBottomOf="@+id/btnVerificar" />
+
+    <TextView
+        android:id="@+id/txtResult1"
+        android:layout_width="64dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="132dp"
+        android:lineSpacingExtra="8sp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVerificar" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="52dp"
+        android:text="LONGITUD"
+        app:layout_constraintEnd_toStartOf="@+id/txtResult2"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/txtResult2"
+        android:layout_width="64dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="132dp"
+        android:lineSpacingExtra="8sp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVerificar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="56dp"
+        android:text="INVERSA"
+        app:layout_constraintEnd_toStartOf="@+id/txtResult2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txtResult3"
+        android:layout_width="154dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="56dp"
+        android:lineSpacingExtra="8sp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVerificar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:text="lETRAS REPETIDAS"
+        app:layout_constraintEnd_toStartOf="@+id/txtResult4"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/txtResult4"
+        android:layout_width="81dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="112dp"
+        android:lineSpacingExtra="8sp"
+        android:text="REPETIDAS"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVerificar" />
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
